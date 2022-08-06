@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{2634DAA5-7ED8-4C75-9677-962111FA44B1}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="NotepadApp" Key="{546716CF-F2B4-4B8F-B40C-C59ECB59CF9F}">
+						<TypeInfo Item0="{542F44FD-2BEE-47E9-A423-13A05FD2BE5F}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="notepad" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="NPMainWindow" Key="{E9374DCD-271E-4923-9D75-2E11F1AB0923}">
+								<Image FileName="662843461" Left="0" Top="0" Right="974" Bottom="949" />
+								<TypeInfo Item0="{6FF5C61B-E983-42A4-8BF8-0888F56163FA}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Notepad" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="NPEdit" Key="{4624D518-4570-4E25-80EC-B9EA0FE5FE05}">
+										<Image FileName="662843461" Left="9" Top="63" Right="965" Bottom="911" />
+										<TypeInfo Item0="{1A6EDBEC-00F7-4470-A834-FF82C6B83270}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Edit" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{ED516984-98FF-47B8-8EA3-8DCFEC6BCB2D}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageVisualStudioCodeCodeEditingR" Key="{E05E1382-B057-436F-9CAB-82AFCA804112}">
+								<Image FileName="1418233021" Left="0" Top="88" Right="1920" Bottom="1030" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://code.visualstudio.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelMain" Key="{6BA0C0D8-78FC-4499-983F-05FA5BCACF25}" ExtendedFind="True">
+										<Image FileName="1418233021" Left="0" Top="88" Right="1899" Bottom="5604" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="main" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelVisualStudioCode" Key="{DB3E4BD1-2551-4D25-9675-C7E262092BE5}" ExtendedFind="True">
+												<Image FileName="1418233021" Left="0" Top="88" Right="1899" Bottom="151" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="0" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panelVisualStudioCode" Key="{F12F81E3-AE05-473C-A9F8-E808E432FEF7}" ExtendedFind="True">
+														<Image FileName="1418233021" Left="0" Top="88" Right="1899" Bottom="151" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+															<Property Name="contentText">
+																<Value Value="560069007300750061006C002000530074007500640069006F00200043006F00640065000A0044006F00630073000A0055007000640061007400650073000A0042006C006F0067000A004100500049000A0045007800740065006E00730069006F006E0073000A004600410051000A004C006500610072006E000A005300650061007200630068000A0044006F0077006E006C006F0061006400" Type="7" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageDocs" Key="{8C85E513-7162-48E6-A60F-0ADF01C424DA}">
+								<Image FileName="-1278746844" Left="0" Top="88" Right="1920" Bottom="1030" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://code.visualstudio.com/docs" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelSkipToContent" Key="{0A2D131E-9C12-468C-B71D-F1C77DD65A2D}" ExtendedFind="True">
+										<Image FileName="-1278746844" Left="0" Top="88" Right="1899" Bottom="151" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="53006B0069007000200074006F00200063006F006E00740065006E0074000A00560069007300750061006C002000530074007500640069006F00200043006F00640065000A0044006F00630073000A0055007000640061007400650073000A0042006C006F0067000A004100500049000A0045007800740065006E00730069006F006E0073000A004600410051000A004C006500610072006E000A005300650061007200630068000A0044006F0077006E006C006F0061006400" Type="7" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelSkipToContent" Key="{D7957931-93CA-421B-ABA9-ABE9C47AA960}" ExtendedFind="True">
+												<Image FileName="-1278746844" Left="0" Top="88" Right="1899" Bottom="151" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="53006B0069007000200074006F00200063006F006E00740065006E0074000A00560069007300750061006C002000530074007500640069006F00200043006F00640065000A0044006F00630073000A0055007000640061007400650073000A0042006C006F0067000A004100500049000A0045007800740065006E00730069006F006E0073000A004600410051000A004C006500610072006E000A005300650061007200630068000A0044006F0077006E006C006F0061006400" Type="7" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSoftwareTestingMonitoringDev" Key="{D1D3335E-F104-4EDD-BB56-3D2B64F444E5}">
+								<Image FileName="728305596" Left="0" Top="88" Right="1920" Bottom="1030" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="headerPLtHeader" Key="{819FAE74-B4CC-4B46-B5D5-9DD3F605BD7C}" ExtendedFind="True">
+										<Image FileName="-1256614030" Left="0" Top="88" Right="0" Bottom="88" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Header" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="p_lt_Header" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="careerslink" Key="{8C6203BD-3E10-402D-82E9-06ADFB4A6EDA}" ExtendedFind="True">
+												<Image FileName="-1256614030" Left="1253" Top="88" Right="1334" Bottom="169" />
+												<TypeInfo Item0="{94CBF66D-357C-4306-846E-AD4B79635213}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Link" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="Careers" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="NotepadApp" Owner="{546716CF-F2B4-4B8F-B40C-C59ECB59CF9F}">
+			<Child Name="NPMainWindow" Owner="{E9374DCD-271E-4923-9D75-2E11F1AB0923}">
+				<Child Name="NPEdit" Owner="{4624D518-4570-4E25-80EC-B9EA0FE5FE05}" />
+			</Child>
+		</Child>
+		<Child Name="NPEditAlias" Owner="{4624D518-4570-4E25-80EC-B9EA0FE5FE05}" />
+		<Child Name="browser" Owner="{ED516984-98FF-47B8-8EA3-8DCFEC6BCB2D}">
+			<Child Name="pageVisualStudioCodeCodeEditingR" Owner="{E05E1382-B057-436F-9CAB-82AFCA804112}">
+				<Child Name="panelVisualStudioCode" Owner="{F12F81E3-AE05-473C-A9F8-E808E432FEF7}" />
+			</Child>
+			<Child Name="pageDocs" Owner="{8C85E513-7162-48E6-A60F-0ADF01C424DA}">
+				<Child Name="panelSkipToContent" Owner="{D7957931-93CA-421B-ABA9-ABE9C47AA960}" />
+			</Child>
+			<Child Name="pageSoftwareTestingMonitoringDev" Owner="{D1D3335E-F104-4EDD-BB56-3D2B64F444E5}">
+				<Child Name="headerPLtHeader" Owner="{819FAE74-B4CC-4B46-B5D5-9DD3F605BD7C}">
+					<Child Name="careerslink" Owner="{8C6203BD-3E10-402D-82E9-06ADFB4A6EDA}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="careerslink" Owner="{8C6203BD-3E10-402D-82E9-06ADFB4A6EDA}" />
+	</LogicalNodes>
+</Root>

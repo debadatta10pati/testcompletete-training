@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<Table Name="MYDATABASE">
+		<Source ConnectionString="Provider=MSDASQL.1;Password=Hello2022;Persist Security Info=True;User ID=root;Data Source=MYSQLODBC" Object="Table" DataObjectContent="insurance" />
+		<Columns>
+			<Column>Id</Column>
+			<Column>insurance_Type</Column>
+			<Column>price</Column>
+			<Column>duration_in_months</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="Integer">1</Cell>
+				<Cell Type="String">Car</Cell>
+				<Cell Type="Integer">250</Cell>
+				<Cell Type="Integer">12</Cell>
+			</Row>
+			<Row>
+				<Cell Type="Integer">2</Cell>
+				<Cell Type="String">Home</Cell>
+				<Cell Type="Integer">300</Cell>
+				<Cell Type="Integer">24</Cell>
+			</Row>
+			<Row>
+				<Cell Type="Integer">3</Cell>
+				<Cell Type="String">Life</Cell>
+				<Cell Type="Integer">400</Cell>
+				<Cell Type="Integer">18</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{C533BE6E-7690-426C-ADD8-7F109DA8D36D}">
+	<children>
+		<child name="MyCheckPoints" key="{DBB0D687-9030-4F59-8D5B-6228BA739C5A}" path="MyCheckPoints.mds" />
+	</children>
+	<testItems key="{E07C4CA3-D543-41D1-9FD1-D2E3C78F0D4C}">
+		<children>
+			<testItem key="{DBB0D687-9030-4F59-8D5B-6228BA739C5A}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{02B6ACBE-A33B-4A25-8FA6-7CA8410846AF}" />
+	<analysis key="{7716BCE3-DA4E-4A52-896B-E8335114684E}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

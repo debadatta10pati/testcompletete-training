@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
+	<children>
+		<child name="ToolBar" key="{8526957B-2736-4F21-BCDE-A0CD20F0F976}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="ToolBar" ID="{8526957B-2736-4F21-BCDE-A0CD20F0F976}" FileName="Regions\ToolBar.png" Update="False" />
+		</child>
+		<child name="ToolBar_Mask" key="{030829A3-201C-4D58-89B5-24AF6B8275AD}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="ToolBar_Mask" ID="{030829A3-201C-4D58-89B5-24AF6B8275AD}" FileName="Regions\ToolBar_Mask.png" Update="False" />
+		</child>
+	</children>
+</Root>

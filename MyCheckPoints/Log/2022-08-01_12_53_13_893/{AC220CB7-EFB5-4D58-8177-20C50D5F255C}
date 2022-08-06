@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 1">
+			<Prp name="message" type="S" value="The file checkpoint &quot;smartbear1_txt&quot; failed. See Details for additional information."/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;a href=&quot;logchild://{38905343-14A0-4B6B-B39D-8EA0D45CC31C}&quot;&gt;Show comparison results.&lt;/a&gt;&lt;br&gt;&lt;br&gt;The files &quot;smartbear1_txt&quot; and &quot;C:\Users\NobleProg\Desktop\smartbear2.txt&quot; are not equal. The files are of different size. 2 bytes are different.&lt;br&gt;The size of the file &quot;smartbear1_txt&quot; is 10 bytes.&lt;br&gt;The size of the file &quot;C:\Users\NobleProg\Desktop\smartbear2.txt&quot; is 12 bytes.&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;a href=&quot;projectnode://{3DDE8096-54F7-4ED9-B92D-5DE93A7C4B20}&quot;&gt; Click here to show or modify data of the checkpoint &quot;smartbear1_txt&quot;. &lt;/a&gt;&lt;/p&gt;The difference between the files is 17 %.&lt;br&gt;The difference between the compared files is significant. It is not recommended to increase the value of the Allowed Difference parameter as in this case, the different files will be considered as the same. &lt;a href=&quot;aqa-help://3061&quot;&gt;See help for more information.&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;a href=&quot;checkpointupdate://1|{0606873D-1781-4B99-BDCE-942B429A6D53}|{89BA0FDE-5181-45E2-B204-01A31E3A0C54}|smartbear1_txt|CheckpointData\checkpoint_2022-08-01.bin|&quot;&gt;Update the &quot;smartbear1_txt&quot; checkpoint data.&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44774.5370891898"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44774.5370913773"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{499FCA27-FA85-4BE9-B48F-4A4A400BC614}"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="message" type="S" value="Files.Compare result."/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value="&lt;a href=&quot;Execute:&amp;amp;C:\Users\NobleProg\Downloads\BCompare-4.4.3.26655.exe&amp;amp; &amp;amp;smartbear1_1.txt&amp;amp; &amp;amp;smartbear2_1.txt&amp;amp;&quot;&gt;Details&lt;/a&gt;"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44774.5370893634"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="type" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="stacktext" type="S" value="Filecheckpointtest()"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="stacktext" type="S" value="Filecheckpointtest()"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="child data">
+			<Prp name="child 0" type="S" value="{38905343-14A0-4B6B-B39D-8EA0D45CC31C}"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="message" type="S" value="File Comparison Result [smartbear1_txt]"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;This test has a log associated with it.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;logchild://{38905343-14A0-4B6B-B39D-8EA0D45CC31C}&quot;&gt;View detailed logs&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="link" type="S" value="&lt;a rel=&quot;child&quot; href=&quot;0&quot;&gt;Details&lt;/a&gt;"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="0"/>
+			<Prp name="date" type="D" value="44774.5370873611"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="type" type="I" value="6"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

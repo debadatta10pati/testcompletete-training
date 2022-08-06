@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Hello" key="{38470F5A-EC4D-4F10-982F-FF34B00126F3}" path="Hello.js" />
+		<child name="NotepadNameMapping" key="{DC6C560C-5013-4441-8856-44B7CBAFA77F}" path="NotepadNameMapping.js" />
+		<child name="BrowserNameMapping" key="{E171FE4B-9438-46C7-82EF-63E2F7B5DE05}" path="BrowserNameMapping.js" />
+		<child name="DriveSize" key="{6B611EA4-E3F9-400A-A986-1A9E29D68585}" path="DriveSize.js" />
+		<child name="DateTimeExample" key="{CD17E133-C3CD-4BDC-9F09-DBCFB3D17600}" path="DateTimeExample.js" />
+		<child name="Variables" key="{DC2C9F81-4F09-42F3-B693-30B344367EA1}" path="Variables.js" />
+	</children>
+</Root>

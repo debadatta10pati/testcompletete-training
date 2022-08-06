@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Test1" key="{0CF1171D-2170-44C4-860F-424E65B99707}" path="Test1.tcKDTest" />
+		<child name="Filecheckpointtest" key="{499FCA27-FA85-4BE9-B48F-4A4A400BC614}" path="Filecheckpointtest.tcKDTest" />
+		<child name="PropertyCheckPointTest" key="{B69BFC76-78EA-41A5-9262-131C0835D56B}" path="PropertyCheckPointTest.tcKDTest" />
+		<child name="DatabaseCheckpointTest" key="{F2F0B22B-DC76-4566-B220-0F5F65997DEB}" path="DatabaseCheckpointTest.tcKDTest" />
+		<child name="DataDrivenTestingExample" key="{BF38EF6E-39AC-48AF-887A-E735858C9F5E}" path="DataDrivenTestingExample.tcKDTest" />
+		<child name="DataDrivenTestingwithCSVOrders" key="{B8154DAF-106F-412A-91C4-8F23733DD22B}" path="DataDrivenTestingwithCSVOrders.tcKDTest" />
+		<child name="DataDrivenTestingwithInsuranceRegistration" key="{DEDFC6BD-7962-41CB-905E-01F199B50D8F}" path="DataDrivenTestingwithInsuranceRegistration.tcKDTest" />
+		<child name="DataDrivenXLSheet" key="{FA8AA397-CDB6-44A8-9ADB-79C781698425}" path="DataDrivenXLSheet.tcKDTest" />
+		<child name="DataDrivenTestingwithSQL" key="{BF98DAC4-46BD-4729-80B5-AA747354AE97}" path="DataDrivenTestingwithSQL.tcKDTest" />
+		<child name="DataDrivenTestingSQLQuery" key="{18C9997C-3D20-4781-AC79-755AF1B67468}" path="DataDrivenTestingSQLQuery.tcKDTest" />
+		<child name="DataDrivenTestingInternalTable" key="{1CA9B594-A267-4A9E-AAF9-A0F0CC4CA26C}" path="DataDrivenTestingInternalTable.tcKDTest" />
+		<child name="WebCheckPointTest" key="{D7E0315B-1718-4743-A984-3FC5287005DD}" path="WebCheckPointTest.tcKDTest" />
+	</children>
+</Root>
